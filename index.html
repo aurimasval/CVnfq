@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title> RESPONSIVE CV</title>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1 ">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/cv.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- skelsim i dvi dalis vienas bus meniu kitas bus sarasas apie mane -->
+        <!-- Navigacinis langas kartu su nuotrauka-->
+        <div class="row">
+
+            <!-- Navigacinis langas kartu su nuotrauka-->
+            <header class=" tabNavigation col-xs-12 col-md-4 ">
+
+                <!-- nuotraukos vieta -->
+                <div class="row">
+                    <div class="col-xs-4 col-md-12">
+                        <img src="img/nuotrauka.jpg" class=" img-responsive " alt="Responsive image" >
+                    </div>
+                <div class="col-xs-8 col-md-12">
+                    <ul class="nav nav-pills nav-stacked" role="tablist">
+                        <li role="presentation" class="active"><a href="#apie" aria-controls="apie" role="tab" data-toggle="tab">Asmeninė informacija <span class="glyphicon glyphicon-user pull-right"></span></a></li>
+                        <li role="presentation"><a href="#mokykla" aria-controls="mokykla" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-education pull-right"></span>Mokymosi įstaigos</a></li>
+                        <li role="presentation"><a href="#darbas" aria-controls="darbas" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-briefcase pull-right"></span> Darbo Patirtis</a></li>
+                        <li role="presentation"><a href="#asmenybe" aria-controls="asmenybe" role="tab" data-toggle="tab"><span class=" glyphicon glyphicon-list-alt pull-right"></span>Asmenybės bruožai</a></li>
+                     </ul>
+                </div>
+                </div>
+                </header>
+            <main class="tab-content col-xs-12 col-md-8 ">
+                <section role="tabpanel" class="tab-pane active" id="apie">
+                    <h1>Asmeninė informacija</h1>  <hr/>
+
+                  <div  class="row panelVertical icons">
+                      <div class="col-xs-2 panelVerticalNAME"><p class="stiprus ikonos"><span class="glyphicon glyphicon-user"></span></p></div>
+                      <div class="col-xs-offset-1 col-xs-9 panelVerticalAREA"><p class="normalus">Aurimas Valančius</p></div>
+                  </div>
+
+                    <div  class="row panelVertical icons">
+                        <div class="col-xs-2 panelVerticalNAME"><p class="stiprus ikonos"><span class="glyphicon glyphicon-home"></span></p></div>
+                        <div class="col-xs-offset-1 col-xs-9 panelVerticalAREA"><p class="normalus">  Studentų  g. 69, Kaunas</p></div>
+                    </div>
+                    <div  class="row panelVertical icons">
+                        <div class="col-xs-2 panelVerticalNAME"><p class="stiprus ikonos"><span class="glyphicon glyphicon-phone"></span></p></div>
+                        <div class="col-xs-offset-1 col-xs-9 panelVerticalAREA"><p class="normalus">  +370 631 47708</p></div>
+                    </div>
+                    <div  class="row panelVertical icons">
+                        <div class="col-xs-2 panelVerticalNAME"><p class="stiprus ikonos"><span class="glyphicon glyphicon-envelope"></span></p></div>
+                        <div class="col-xs-offset-1 col-xs-9 panelVerticalAREA"><p class="normalus">  aurimas.valančius@gmail.com</p></div>
+                    </div>
+                    <div  class="row panelVertical icons">
+                        <div class="col-xs-2 panelVerticalNAME"><p class="stiprus">Kita</p></div>
+                        <div class="col-xs-offset-1 col-xs-9 panelVerticalAREA"><p class="normalus"> Gimimo data 1995 m. vasario 19 d.</p></div>
+                    </div>
+                    <hr/>
+
+                </section>
+
+                <section role="tabpanel" class="tab-pane" id="mokykla">
+                    <h1>Išsilavinimas</h1><hr/>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Programų sistemų indžinerijos bakalauras</h2>
+                        </div>
+                        <div class="panel-body">
+
+                            <article  class="row panelVertical">
+                                <div class="col-xs-4 panelVerticalNAME">
+                                    <p class="stiprus">2013 m. rugsėjo 1 d. – Šiuo metu </p>
+                                </div>
+                                <div class="col-xs-offset-1 col-xs-7 panelVerticalAREA">
+                                    <p class="normalus">
+                                    Kauno technologijos universitetas
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        </div>
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2 class="panel-title">Vidurinis išsilavinimas</h2>
+                            </div>
+                            <div class="panel-body">
+                                <article class="row panelVertical">
+                                    <div class="col-xs-4 panelVerticalNAME"><p class="stiprus"> 2009 m. rugsėjo 1 d. - 2013 m. birželio 1d.</p> </div>
+                                    <div class="col-xs-offset-1 col-xs-7 panelVerticalAREA"> <p class="normalus"> Tauragės “Versmės„ gimnazija</p></div>
+                                </article>
+                            </div>
+
+                    </div>
+                    <hr/>
+                </section>
+                <section role="tabpanel" class="tab-pane" id="darbas">
+                    <h1>Darbo patirtis</h1><hr/>
+                    <section class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Oficiali darbo patirtis</h2>
+                        </div>
+                        <div class="panel-body">
+                            Oficialios darbo patirties neturiu.
+                        </div>
+                    </section>
+
+                    <section class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">Neoficiali darbo patirtis</h2>
+                        </div>
+                        <div class="panel-body">
+                            <article class="row panelVertical">
+                                <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                                    <p class="stiprus">Darbas Kompiuteriu</p>
+                                </div>
+                                <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                                    <p class="normalus tekstas">
+                                        Kompiuterių taisymas. Statinių puslapių kūrimas. Darbai su VHDL.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <hr/>
+                    </section>
+                <section role="tabpanel" class="tab-pane" id="asmenybe">
+                    <h1>Asmenybės bruožai</h1><hr/>
+
+                    <article class="row panelVertical">
+                        <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                            <p class="stiprus"> Bendravimo gebėjimai</p>
+                        </div>
+                        <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                            <p class="normalus tekstas"> Moku bendrauti su įvairiais žmonėmis, lengvai užmezgu kontaktą, moku klausytis.
+                                Teko bendrauti su svečiais iš užsienio, kurie lankė mūsų mokyklą .</p>
+                        </div>
+                    </article>
+
+                    <article class="row panelVertical">
+                        <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                            <p class="stiprus">  Organizaciniai ir vadovavimo
+                                gebėjimai</p>
+                        </div>
+                        <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                            <p class="normalus tekstas"> Turiu darbo komandoje patirties. Taip pat sugebu vadovauti asmenų grupėms, nes buvau klasės seniūnu ir pagrindinės mokyklos parlamento pirmininku.
+                            Esu organizavęs kelis mokyklos renginius</p>
+                        </div>
+                    </article>
+                    <article class="row panelVertical">
+                        <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                            <p class="stiprus">Pageidaujamam darbui reikalingi gebėjimai</p>
+                        </div>
+                        <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                            <p class="normalus tekstas"> Esu atsakingas, komunikabilus, atidus detalėms. Greitai mokausi naujų dalykų, esu žingeidus bei
+                                gebu savarankiškai išmokti naują informaciją. Dažnai parodau iniciatyvą, siūlau naujas idėjas.</p>
+                        </div>
+                    </article>
+                    <article class="row panelVertical">
+                        <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                            <p class="stiprus">Darbo kompiuteriu gebėjimai</p>
+                        </div>
+                        <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                            <p class="normalus tekstas">
+                               Puikiai moku naudotis MS Office programomis. Turiu patirties programuojant JAVA, C++ ir C# kalbomis. Taip pat esu dirbęs su MATLAB programa.
+                            </p>
+                        </div>
+                    </article>
+
+                    </article>
+                    <article class="row panelVertical">
+                        <div class="col-lg-3  col-sm-4  col-xs-12 panelVerticalNAME">
+                            <p class="stiprus">Kiti gebėjima</p>
+                        </div>
+                        <div class=" col-lg-offset-1 col-lg-8 col-sm-offset-1 col-sm-7 col-xs-12 panelVerticalAREA">
+                            <p class="normalus tekstas">
+                                Lankiau dailės kursus. Dramos būrelį.
+                                <br/>
+                                Vairuotojo pažymėjimas B </p>
+                        </div>
+                    </article>
+                    <hr/>
+                </section>
+
+                </main>
+            </div>
+                </div>
+        </div>
+
+
+
+</body>
+</html>
